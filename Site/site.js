@@ -2,7 +2,9 @@ function settings() {
     var settings = document.getElementById("settings")
 
     if (settings.style.display == "none") {
-        settings.style.display = "initial"
+        settings.style.display = "initi
+        
+        
     } else if (settings.style.display == "initial") {
         settings.style.display = "none";
     } else {
